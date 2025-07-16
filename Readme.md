@@ -1,102 +1,56 @@
-🌍 COVID‑19 Interactive Dashboard
+# 🌐 COVID-19 Interactive Dashboard
 
-An interactive web application built with **Streamlit**, **Plotly**, and **Pandas** that visualizes the global spread and status of **COVID-19** using the **Johns Hopkins University CSSE** dataset.
+This is a **Streamlit-based dashboard** that visualizes **global COVID-19 data** using the Johns Hopkins University dataset. You can track **confirmed, recovered, deaths, and active cases** by country, view trends over time, and even generate top-10 country comparisons.
 
-> 🔬 Built by [Akshay Makhija](https://github.com/your-username) — Final Year CS Student | AI & Data Science Enthusiast
-
----
-
-## 📌 Features
-
-✅ Select multiple countries  
-✅ View **Confirmed**, **Recovered**, **Deaths**, and **Active** cases  
-✅ Toggle between **Cumulative** and **Daily** trends  
-✅ Interactive time-series charts (Plotly)  
-✅ Top 10 Countries by metric  
-✅ Choropleth Map (World View)  
-✅ Custom Fonts for elegant UI (Google Fonts)
+![Dashboard Screenshot](./screenshot.png)
 
 ---
 
-## 📊 Sample Screenshot
+## 📊 Features
 
-> *(Upload a screenshot named `screenshot.png` in the root folder)*
-
-![Dashboard Screenshot](screenshot.png)
-
----
-
-## 📂 Dataset Source
-
-- **Johns Hopkins University CSSE**  
-  🔗 [https://github.com/CSSEGISandData/COVID-19](https://github.com/CSSEGISandData/COVID-19)
+- Selectable countries and metrics (confirmed, deaths, recovered, active)
+- Interactive time-series charts using Plotly
+- Toggle between **cumulative** and **daily changes**
+- Top 10 country comparisons by metric
+- Optional choropleth world map
+- Custom Google Fonts and UI styling
 
 ---
 
-## 🚀 Getting Started
+## 📁 Data Source
 
-### 1. Clone the Repo
+- Johns Hopkins CSSE COVID-19 Dataset  
+  [GitHub Link](https://github.com/CSSEGISandData/COVID-19)
+
+---
+
+## ▶️ How to Run
+
+1. Clone the repository:
 
 ```bash
 git clone https://github.com/your-username/covid-dashboard.git
 cd covid-dashboard
-2. Install Dependencies
+
+
+2. Install the required packages:
+
 bash
 Copy
 Edit
 pip install -r requirements.txt
-Or manually install:
 
-bash
-Copy
-Edit
-pip install streamlit pandas plotly
-3. Run the Streamlit App
+
+4. Run the app:
+
 bash
 Copy
 Edit
 streamlit run app.py
-📁 Project Structure
-bash
-Copy
-Edit
-covid-dashboard/
-│
-├── app.py                      # Main Streamlit app
-├── requirements.txt            # Project dependencies
-├── README.md                   # This file
-├── screenshot.png              # UI screenshot (optional)
-└── csse_covid_19_data/         # Data folder with CSVs
-    ├── time_series_covid19_confirmed_global.csv
-    ├── time_series_covid19_deaths_global.csv
-    └── time_series_covid19_recovered_global.csv
-🌐 Live Demo (Optional)
-👉 Deploy it for free on Streamlit Cloud
+<img width="1906" height="944" alt="Screenshot 2025-07-16 111922" src="https://github.com/user-attachments/assets/ecf868e1-c921-418a-85a7-725286f100c0" />
 
-Link your GitHub repo
 
-Choose app.py as the entry point
 
-You're live!
-
-👨‍💻 Author
+👨‍💻 Developed By
 Akshay Makhija
-📍 India
-📫 akshay.makhija343@gmail.com
-🔗 LinkedIn | GitHub
-
-📜 License
-This project is licensed under the MIT License.
-
-❤️ Contributing
-Pull requests are welcome. For major changes, open an issue first to discuss what you would like to change.
-
-⭐️ Show Your Support
-If you found this project helpful, please give it a ⭐️ on GitHub. It helps more people discover it!
-
-yaml
-Copy
-Edit
-
----
-
+ML & Data Enthusiast
