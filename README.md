@@ -12,6 +12,11 @@ covid-dashboard/
 │   ├── Screenshot 2025-07-16 111904.png
 │   └── Screenshot 2025-07-16 111922.png
 ![Main Dashboard](assets/Screenshot%202025-07-16%20111809.png)
+![Main Dashboard](assets/Screenshot%202025-07-16%20111828.png)
+![Main Dashboard](assets/Screenshot%202025-07-16%20111904.png)
+![Main Dashboard](assets/Screenshot%202025-07-16%20111922.png)
+
+
 
 
 ---
