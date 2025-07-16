@@ -3,6 +3,16 @@
 This is a **Streamlit-based dashboard** that visualizes **global COVID-19 data** using the Johns Hopkins University dataset. You can track **confirmed, recovered, deaths, and active cases** by country, view trends over time, and even generate top-10 country comparisons.
 
 ![Dashboard Screenshot](./screenshot.png)
+covid-dashboard/
+├── app.py
+├── README.md
+├── assets/
+│   ├── Screenshot 2025-07-16 111809.png
+│   ├── Screenshot 2025-07-16 111828.png
+│   ├── Screenshot 2025-07-16 111904.png
+│   └── Screenshot 2025-07-16 111922.png
+![Main Dashboard](assets/Screenshot%202025-07-16%20111809.png)
+
 
 ---
 
